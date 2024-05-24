@@ -3,7 +3,6 @@ import { Mnomonic } from "./lib/mnomonic";
 import { AptosWallet } from "./lib/wallet";
 
 const main = async () => {
-  /*
   // Generate Mnemonic
   const mnemonic = await new Mnomonic().generateMnemonicAsync();
   console.log("Mnemonic: " + mnemonic);
@@ -17,7 +16,6 @@ const main = async () => {
   console.log("Address: " + wallet.address);
   console.log("Private Key: " + wallet.privateKey);
   console.log("Public Key: " + wallet.publicKey);
-  */
 
   // Faucet
   const faucetResponse = await requestAptosFromFaucet(
